@@ -10,7 +10,7 @@ cd dbgidEVMScannerGo
 go mod download
 ```
 # Usage
-Put your file wallet.txt in file on line <b>14</b> must full path if your file outside in your current directory.
+Put your file wallet.txt in file on line <b>14</b> by using nano or vim command in your terminal. must full path if your file outside in your current directory.
 
 if you want this script running like a thread, you can do it by editing on line <b>99</b> just add <b>go</b> in the front of
 ```golang
@@ -25,4 +25,5 @@ But I not recommended that you using these method.
 Because your requests may fail and flag as flooding/spamming requests by remote server.
 Any feedback are welcome, please write your idea in pull requests.
 Regards,
+
 Ajones Aka DBG ID
