@@ -10,6 +10,10 @@ cd dbgidEVMScannerGo
 go mod download
 ```
 # Usage
+```bash
+go run scan.go
+```
+# Info
 Put your file wallet.txt in file on line <b>12</b> by using nano or vim command in your terminal. must full path if your file outside in your current directory.
 
 if you want this script running like a thread, you can do it by editing on line <b>99</b> just add <b>go</b> in the front of
